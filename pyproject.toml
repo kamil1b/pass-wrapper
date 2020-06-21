@@ -5,7 +5,7 @@ description = ""
 authors = ["Kamil Luczak <kamilluczak@luczakweb.pl>"]
 
 [tool.poetry.dependencies]
-python = ">=3.5"
+python = ">=3.6.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
