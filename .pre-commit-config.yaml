@@ -13,7 +13,14 @@ repos:
     rev: 19.3b0
     hooks:
     -   id: black
--   repo: https://github.com/pycqa/pylint
-    rev: pylint-2.5.3
+-   repo: local
     hooks:
     -   id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.3
+    hooks:
+    -   id: flake8
